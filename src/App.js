@@ -12,14 +12,14 @@ import Header from './Components/Header';
 export class App extends Component {
     render() {
         return (
-            <React.Fragment>
-                <Header/>
+            <React.Fragment>                
                 <Router>
+                  <Header/>
                   <Route exact path="/" component={ProjectOneMain}/>
-                    <Route path="/projectone" component={ProjectOneMain}/>
-                    <Route path="/projectTwo" component={ProjectTwoMain}/>
-                    <Route path="/projectThree" component={ProjectThreeMain}/>
-                    <Route path="/projectFour" component={ProjectFourMain}/>
+                  <Route path="/projectone" component={ProjectOneMain}/>
+                  <Route path="/projectTwo" component={ProjectTwoMain}/>
+                  <Route path="/projectThree" component={ProjectThreeMain}/>
+                  <Route path="/projectFour" component={ProjectFourMain}/>
                 </Router>
             </React.Fragment>
         )

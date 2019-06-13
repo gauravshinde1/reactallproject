@@ -10,10 +10,10 @@ export class Header extends Component {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="mr-auto">
-                            <Nav.Link to="/projectone">Project One</Nav.Link>
-                            <Nav.Link to="/projecttwo">Project Two</Nav.Link>
-                            <Nav.Link to="/projectthree">Project Three</Nav.Link>
-                            <Nav.Link to="/projectfour">Project Four</Nav.Link>
+                            <Link to="/projectone">Project One</Link>
+                            <Link to="/projecttwo">Project Two</Link>
+                            <Link to="/projectthree">Project Three</Link>
+                            <Link to="/projectfour">Project Four</Link>
                         </Nav>
                     </Navbar.Collapse>
             </Navbar>
