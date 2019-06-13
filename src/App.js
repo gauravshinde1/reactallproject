@@ -15,10 +15,11 @@ export class App extends Component {
             <React.Fragment>
                 <Header/>
                 <Router>
-                    <Route exact path="/projectone" component={ProjectOneMain}/>
-                    <Route exact path="/projectTwo" component={ProjectTwoMain}/>
-                    <Route exact path="/projectThree" component={ProjectThreeMain}/>
-                    <Route exact path="/projectFour" component={ProjectFourMain}/>
+                  <Route exact path="/" component={ProjectOneMain}/>
+                    <Route path="/projectone" component={ProjectOneMain}/>
+                    <Route path="/projectTwo" component={ProjectTwoMain}/>
+                    <Route path="/projectThree" component={ProjectThreeMain}/>
+                    <Route path="/projectFour" component={ProjectFourMain}/>
                 </Router>
             </React.Fragment>
         )
