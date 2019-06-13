@@ -7,7 +7,7 @@ import ProjectOneMain from './Components/ProjectOne/ProjectOneMain';
 import ProjectTwoMain from './Components/ProjectTwo/ProjectTwoMain';
 import ProjectThreeMain from './Components/ProjectThree/ProjectThreeMain';
 import ProjectFourMain from './Components/ProjectFour/ProjectFourMain';
-import Header from './Header';
+import Header from './Components/Header';
 
 export class App extends Component {
     render() {
