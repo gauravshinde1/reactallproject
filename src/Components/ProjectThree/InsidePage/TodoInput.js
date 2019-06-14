@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 
 export default class TodoInput extends Component {
     render() {
-        const { item, handleChange, handleSubmit } = this.props;
+        const { item, handleChange, handleSubmit, editItem } = this.props;
         return (
             <React.Fragment>
                 <div className="card card-body my-3">
@@ -13,9 +13,11 @@ export default class TodoInput extends Component {
                                     <i className="fa fa-book"></i>
                                 </div>
                             </div>
-                            <input type="text" className="form-control text-capitalize" placeholder="add a todo item" value={item} onChange={handleChange} />
+                            <input type="text" className="form-control text-capitalize" placeholder="add a todo item" value={item} onChange={handleChange} required />
                         </div>
-                        <button type="submit" className="btn btn-block btn-primary mt-3">Add Item</button>
+                        <button type="submit" className=
+                        {editItem ? "btn btn-block btn-success mt-3" : "btn btn-block btn-primary mt-3"}>
+                        {editItem ? "edit item" : "add item"}</button>
                     </form>
                 </div>
             </React.Fragment>
