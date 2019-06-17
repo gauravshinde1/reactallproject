@@ -9,10 +9,10 @@ export class Header extends Component {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="mr-auto">
-                            <Link className="mr-4 text-warning" to="/">Project One</Link>
-                            <Link className="mr-4 text-warning" to="/projecttwo">Project Two</Link>
-                            <Link className="mr-4 text-warning" to="/projectthree">Project Three</Link>
-                            <Link className="mr-4 text-warning" to="/projectfour">Project Four</Link>
+                            <Link className="mr-4 text-warning" to="/">Card List</Link>
+                            <Link className="mr-4 text-warning" to="/projecttwo">Tour</Link>
+                            <Link className="mr-4 text-warning" to="/projectthree">TODO List</Link>
+                            <Link className="mr-4 text-warning" to="/projectfour">Recipes</Link>
                         </Nav>
                     </Navbar.Collapse>
             </Navbar>

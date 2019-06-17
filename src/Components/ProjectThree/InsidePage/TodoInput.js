@@ -13,7 +13,9 @@ export default class TodoInput extends Component {
                                     <i className="fa fa-book"></i>
                                 </div>
                             </div>
-                            <input type="text" className="form-control text-capitalize" placeholder="add a todo item" value={item} onChange={handleChange} required />
+                            <input type="text" className="form-control text-capitalize" placeholder="add a todo item" 
+                            value={item} 
+                            onChange={handleChange} required />
                         </div>
                         <button type="submit" className=
                         {editItem ? "btn btn-block btn-success mt-3" : "btn btn-block btn-primary mt-3"}>
